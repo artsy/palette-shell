@@ -46,7 +46,6 @@ async function setupRepo() {
   });
 
   await yarn();
-  await yarn("add --dev node@8");
   yarn("docs");
 }
 
